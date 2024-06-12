@@ -1,0 +1,9 @@
+<p>list works!</p>
+<div class="grid grid-cols-3">
+    <app-product [tittle]="'Product 1'" [price]="12" img="https://picsum.photos/640/640?r=22" (addToCart)="fromChild($event)"></app-product>
+    <app-product [tittle]="'Product 2'" [price]="12" img="https://picsum.photos/640/640?r=23" (addToCart)="fromChild($event)"></app-product>
+    <app-product [tittle]="'Product 3'" [price]="12" img="https://picsum.photos/640/640?r=24" (addToCart)="fromChild($event)"></app-product>
+    <app-product [tittle]="'Product 4'" [price]="12" img="https://picsum.photos/640/640?r=25" (addToCart)="fromChild($event)"></app-product>
+    <app-product [tittle]="'Product 5'" [price]="12" img="https://picsum.photos/640/640?r=26" (addToCart)="fromChild($event)"></app-product>
+    <app-product [tittle]="'Product 6'" [price]="12" img="https://picsum.photos/640/640?r=27" (addToCart)="fromChild($event)"></app-product>
+</div>
